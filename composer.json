@@ -20,7 +20,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.6",
-        "phpunit/phpunit": "^11.2",
+        "phpunit/phpunit": "^9.5",
         "behat/behat": "^3.14",
         "behat/mink": "^1.11",
         "behat/mink-extension": "^2.3",
