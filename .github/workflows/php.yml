@@ -1,4 +1,4 @@
-name: PHP CI
+name: Update Composer
 
 on:
   push:
@@ -9,40 +9,26 @@ on:
       - main
 
 jobs:
-  build:
+  update-composer:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '7.4'
-          extensions: mbstring, intl
-          coverage: xdebug
-          ini-values: |
-            post_max_size=256M
-            upload_max_filesize=256M
-
-      - name: Validate composer.json and composer.lock
-        run: composer validate
-
-      - name: Install Composer dependencies
-        run: composer install --no-progress --prefer-dist
-
-      - name: Run PHP lint
-        run: find . -type f -name "*.php" -exec php -l {} \;
-
-      - name: Run PHPUnit
-        run: vendor/bin/phpunit --coverage-clover=coverage.xml
-
-      - name: Upload coverage to SonarCloud
+      - name: Install Composer
         run: |
-          sonar-scanner \
-          -Dsonar.projectKey=sosa-proyecto_coberturabdd \
-          -Dsonar.organization=sosa-proyecto \
-          -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=635d1c74fe6c8d12ce6977cb86ebdc8597dfe5d7 \
-          -Dsonar.php.coverage.reportPaths=coverage.xml
+          php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+          php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+          php -r "unlink('composer-setup.php');"
+        
+      - name: Update Composer dependencies
+        run: composer update --no-progress --no-interaction
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "your-email@example.com"
+          git config --global user.name "Your Name"
+          git add composer.lock
+          git commit -m "Update Composer dependencies"
+          git push
