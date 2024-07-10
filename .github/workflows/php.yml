@@ -25,10 +25,7 @@ jobs:
       - name: Update Composer dependencies
         run: composer update --no-progress --no-interaction
 
-      - name: Commit changes
-        run: |
-          git config --global user.email "aa2021071075@virtual.upt.pe"
+      - name: Push changes
+        run: git config --global user.email "aa2021071075@virtual.upt.pe"
           git config --global user.name "AlbertApaza"
-          git add composer.lock
-          git commit -m "Update Composer dependencies"
           git push
