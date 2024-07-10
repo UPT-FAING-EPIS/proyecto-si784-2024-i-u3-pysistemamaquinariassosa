@@ -21,7 +21,7 @@ jobs:
           php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
           php composer-setup.php --install-dir=/usr/local/bin --filename=composer
           php -r "unlink('composer-setup.php');"
-
+        
       - name: Update Composer dependencies
         run: composer update --no-progress --no-interaction
 
@@ -31,22 +31,4 @@ jobs:
           git config --global user.name "AlbertApaza"
           git add composer.lock
           git commit -m "Update Composer dependencies"
-
-      - name: Push changes
-        run: git push
-
-      - name: Set GitHub status
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const context = github.context;
-            await github.repos.createCommitStatus({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              sha: context.sha,
-              state: 'success',
-              target_url: 'https://github.com/your-repo-url',
-              description: 'Composer dependencies updated',
-              context: 'Update Composer'
-            })
+          git push
