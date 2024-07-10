@@ -39,12 +39,10 @@ jobs:
         run: vendor/bin/phpunit --coverage-clover=coverage.xml
 
       - name: Upload coverage to SonarCloud
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           sonar-scanner \
           -Dsonar.projectKey=sosa-proyecto_coberturabdd \
           -Dsonar.organization=sosa-proyecto \
           -Dsonar.host.url=https://sonarcloud.io \
-          -Dsonar.login=$SONAR_TOKEN \
+          -Dsonar.login=635d1c74fe6c8d12ce6977cb86ebdc8597dfe5d7 \
           -Dsonar.php.coverage.reportPaths=coverage.xml
