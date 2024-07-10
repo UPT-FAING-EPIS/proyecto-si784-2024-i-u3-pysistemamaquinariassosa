@@ -1,6 +1,6 @@
 {
-    "name": "AlbertApaza/pySistemaMaquinariaSOSA",
-    "description": "Sistema pra la empresa de alquiler de maquinaria pesada SOSA S.A.C",
+    "name": "albertapaza/py-sistema-maquinaria-sosa",
+    "description": "Sistema para la empresa de alquiler de maquinaria pesada SOSA S.A.C",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
