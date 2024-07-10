@@ -27,23 +27,16 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.email "AlbertApaza"
-          git config --global user.name "update composer.lock"
+          git config --global user.email "aa2021071075@virtual.upt.pe"
+          git config --global user.name "AlbertApaza"
           git add composer.lock
           git commit -m "Update Composer dependencies"
 
       - name: Push changes
         run: git push
 
-      - name: Check status
-        uses: EndBug/add-and-commit@v7
-        with:
-          default_author: github_actions
-          message: "Update Composer dependencies"
-          add: composer.lock
-
       - name: Set GitHub status
-        uses: actions/github-script@0.10.0
+        uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
