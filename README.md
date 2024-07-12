@@ -16,6 +16,14 @@
 
 <p align="center">El proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil" se centra en proporcionar soluciones efectivas para mejorar la calidad de los servicios de alquiler de equipos pesados, optimizando la gestión y ofreciendo una experiencia de usuario mejorada.</p>
 
+<!-- Enlaces importantes -->
+<h2 align="center">Enlaces Importantes</h2>
+
+<ul>
+    <li><a href="https://github.com/jesushuallpaEPIS3/sosa">Reporte de Cobertura de Pruebas</a>: Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</li>
+    <li><a href="https://github.com/AlbertApaza/sosau3">Reporte de la Base de Datos</a>: Accede al reporte de la base de datos para obtener detalles sobre el diseño y la estructura de la base de datos utilizada en el proyecto.</li>
+    <li><a href="https://www.youtube.com/watch?v=4CEYmzDozMs">Video de Presentación</a>: Mira el video de presentación del proyecto para una visión general de las funcionalidades y características del sistema.</li>
+</ul>
 
 <!-- Sección de contribución -->
 <h2 align="center">Contribución</h2>
@@ -29,4 +37,3 @@
 
 <!-- Agradecimiento -->
 <p align="center">¡Gracias por tu interés en el proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil" de SOSA e Hijas S.A.C.!</p>
-
