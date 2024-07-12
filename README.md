@@ -22,7 +22,7 @@
 <p align="center">El proyecto está desarrollado utilizando las siguientes tecnologías:</p>
 
 <p align="center">
-    <a href="https://example.com">
+    <a href="https://sosa.sytes.net">
         <img src="https://img.shields.io/badge/SOSA-8A2BE2?style=for-the-badge&color=yellow" alt="SOSA Badge">
     </a>
     <a href="https://www.php.net/">
