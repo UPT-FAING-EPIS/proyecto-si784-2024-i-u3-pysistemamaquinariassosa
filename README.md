@@ -1,7 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/5D-6Xqe4)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15342167)
 
-
 <!-- Título -->
 <h1 align="center">Proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil"</h1>
 
@@ -52,13 +51,13 @@
 
 <!-- Reporte de Cobertura de Pruebas -->
 <div align="center" style="border: 2px solid #007bff; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
-    <h3><a href="https://github.com/jesushuallpaEPIS3/sosa" style="text-decoration: none; color: #007bff;">📊 Reporte de Cobertura de Pruebas</a></h3>
+    <h3><a href="https://jesushuallpaepis3.github.io/sosa/" style="text-decoration: none; color: #007bff;">📊 Reporte de Cobertura de Pruebas</a></h3>
     <p>Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</p>
 </div>
 
 <!-- Desarrollo Guiado por Comportamiento -->
 <div align="center" style="border: 2px solid #17a2b8; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
-    <h3><a href="https://github.com/AlbertApaza/sosau3" style="text-decoration: none; color: #17a2b8;">🔍 Desarrollo Guiado por Comportamiento (BDD)</a></h3>
+    <h3><a href="https://albertapaza.github.io/sosau3/index.html/" style="text-decoration: none; color: #17a2b8;">🔍 Desarrollo Guiado por Comportamiento (BDD)</a></h3>
     <p>Accede a nuestra documentación sobre Desarrollo Guiado por Comportamiento (BDD), que detalla cómo se ha aplicado esta metodología en el proyecto.</p>
 </div>
 
@@ -71,7 +70,7 @@
 <!-- Sección de Unit Testing -->
 <h2 align="center">Unit Testing</h2>
 
-<p align="center">El proyecto utiliza **PHPUnit** para las pruebas unitarias del código. Puedes encontrar los tests y sus resultados en el <a href="https://github.com/jesushuallpaEPIS3/sosa">Reporte de Cobertura de Pruebas</a>.</p>
+<p align="center">El proyecto utiliza **PHPUnit** para las pruebas unitarias del código. Puedes encontrar los tests y sus resultados en el <a href="https://jesushuallpaepis3.github.io/sosa/">Reporte de Cobertura de Pruebas</a>.</p>
 
 <!-- Sección de Composer -->
 <h2 align="center">Composer</h2>
