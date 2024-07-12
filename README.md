@@ -19,11 +19,25 @@
 <!-- Enlaces importantes -->
 <h2 align="center">Enlaces Importantes</h2>
 
-<ul>
-    <li><a href="https://github.com/jesushuallpaEPIS3/sosa">Reporte de Cobertura de Pruebas</a>: Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</li>
-    <li><a href="https://github.com/AlbertApaza/sosau3">Reporte de la Base de Datos</a>: Accede al reporte de la base de datos para obtener detalles sobre el diseño y la estructura de la base de datos utilizada en el proyecto.</li>
-    <li><a href="https://www.youtube.com/watch?v=4CEYmzDozMs">Video de Presentación</a>: Mira el video de presentación del proyecto para una visión general de las funcionalidades y características del sistema.</li>
-</ul>
+<p align="center">A continuación, encontrarás enlaces a recursos clave relacionados con el proyecto:</p>
+
+<!-- Reporte de Cobertura de Pruebas -->
+<div align="center" style="border: 2px solid #007bff; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
+    <h3><a href="https://github.com/jesushuallpaEPIS3/sosa" style="text-decoration: none; color: #007bff;">📊 Reporte de Cobertura de Pruebas</a></h3>
+    <p>Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</p>
+</div>
+
+<!-- Reporte de la Base de Datos -->
+<div align="center" style="border: 2px solid #28a745; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
+    <h3><a href="https://github.com/AlbertApaza/sosau3" style="text-decoration: none; color: #28a745;">🗃️ Reporte de la Base de Datos</a></h3>
+    <p>Accede al reporte de la base de datos para obtener detalles sobre el diseño y la estructura de la base de datos utilizada en el proyecto.</p>
+</div>
+
+<!-- Video de Presentación -->
+<div align="center" style="border: 2px solid #dc3545; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
+    <h3><a href="https://www.youtube.com/watch?v=4CEYmzDozMs" style="text-decoration: none; color: #dc3545;">🎥 Video de Presentación</a></h3>
+    <p>Mira el video de presentación del proyecto para una visión general de las funcionalidades y características del sistema.</p>
+</div>
 
 <!-- Sección de contribución -->
 <h2 align="center">Contribución</h2>
