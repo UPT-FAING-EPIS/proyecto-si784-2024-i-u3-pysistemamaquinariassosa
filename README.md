@@ -16,6 +16,35 @@
 
 <p align="center">El proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil" se centra en proporcionar soluciones efectivas para mejorar la calidad de los servicios de alquiler de equipos pesados, optimizando la gestión y ofreciendo una experiencia de usuario mejorada.</p>
 
+<!-- Tecnologías Utilizadas -->
+<h2 align="center">Tecnologías Utilizadas</h2>
+
+<p align="center">El proyecto está desarrollado utilizando las siguientes tecnologías:</p>
+
+<p align="center">
+    <a href="https://example.com">
+        <img src="https://img.shields.io/badge/SOSA-8A2BE2?style=for-the-badge&color=yellow" alt="SOSA Badge">
+    </a>
+    <a href="https://www.php.net/">
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP Badge">
+    </a>
+    <a href="https://www.mysql.com/">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
+    </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
+    </a>
+    <a href="https://tailwindcss.com/">
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS Badge">
+    </a>
+</p>
+
 <!-- Enlaces importantes -->
 <h2 align="center">Enlaces Importantes</h2>
 
@@ -39,15 +68,15 @@
     <p>Mira el video de presentación del proyecto para una visión general de las funcionalidades y características del sistema.</p>
 </div>
 
-<!-- Sección de contribución -->
-<h2 align="center">Contribución</h2>
+<!-- Sección de Unit Testing -->
+<h2 align="center">Unit Testing</h2>
 
-<p align="center">¡Estamos abiertos a colaboraciones de todo tipo! Si estás interesado en participar en el proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil", no dudes en contactarnos. Aceptamos contribuciones en forma de desarrollo de software, ideas innovadoras, y soporte técnico para mejorar nuestros servicios.</p>
+<p align="center">El proyecto utiliza **PHPUnit** para las pruebas unitarias del código. Puedes encontrar los tests y sus resultados en el <a href="https://github.com/jesushuallpaEPIS3/sosa">Reporte de Cobertura de Pruebas</a>.</p>
 
-<!-- Sección de contacto -->
-<h2 align="center">Contacto</h2>
+<!-- Sección de Composer -->
+<h2 align="center">Composer</h2>
 
-<p align="center">Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros. Puedes encontrarnos en <a href="https://sosa.sytes.net">nuestro sitio web</a> o escribirnos a <a href="mailto:info@sosa.com">info@sosa.com</a>.</p>
+<p align="center">El proyecto utiliza **Composer** para la gestión de dependencias. Para instalar las dependencias del proyecto, ejecuta el siguiente comando:</p>
 
-<!-- Agradecimiento -->
-<p align="center">¡Gracias por tu interés en el proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil" de SOSA e Hijas S.A.C.!</p>
+```bash
+composer install
