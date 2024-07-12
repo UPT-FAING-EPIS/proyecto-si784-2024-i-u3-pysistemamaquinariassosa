@@ -56,10 +56,10 @@
     <p>Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</p>
 </div>
 
-<!-- Reporte de la Base de Datos -->
-<div align="center" style="border: 2px solid #28a745; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
-    <h3><a href="https://github.com/AlbertApaza/sosau3" style="text-decoration: none; color: #28a745;">🗃️ Reporte de la Base de Datos</a></h3>
-    <p>Accede al reporte de la base de datos para obtener detalles sobre el diseño y la estructura de la base de datos utilizada en el proyecto.</p>
+<!-- Desarrollo Guiado por Comportamiento -->
+<div align="center" style="border: 2px solid #17a2b8; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
+    <h3><a href="https://github.com/AlbertApaza/sosau3" style="text-decoration: none; color: #17a2b8;">🔍 Desarrollo Guiado por Comportamiento (BDD)</a></h3>
+    <p>Accede a nuestra documentación sobre Desarrollo Guiado por Comportamiento (BDD), que detalla cómo se ha aplicado esta metodología en el proyecto.</p>
 </div>
 
 <!-- Video de Presentación -->
