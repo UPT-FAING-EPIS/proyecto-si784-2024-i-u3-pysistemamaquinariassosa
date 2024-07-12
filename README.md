@@ -50,12 +50,15 @@
 <p align="center">A continuación, encontrarás enlaces a recursos clave relacionados con el proyecto:</p>
 
 <!-- Reporte de Cobertura de Pruebas -->
+https://github.com/jesushuallpaEPIS3/sosa.git
+
 <div align="center" style="border: 2px solid #007bff; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
     <h3><a href="https://jesushuallpaepis3.github.io/sosa/" style="text-decoration: none; color: #007bff;">📊 Reporte de Cobertura de Pruebas</a></h3>
     <p>Consulta el reporte de cobertura de pruebas para conocer el estado de las pruebas automatizadas en el proyecto.</p>
 </div>
 
 <!-- Desarrollo Guiado por Comportamiento -->
+https://github.com/AlbertApaza/sosau3
 <div align="center" style="border: 2px solid #17a2b8; border-radius: 10px; background-color: #f8f9fa; padding: 15px; margin: 10px 0;">
     <h3><a href="https://albertapaza.github.io/sosau3/index.html/" style="text-decoration: none; color: #17a2b8;">🔍 Desarrollo Guiado por Comportamiento (BDD)</a></h3>
     <p>Accede a nuestra documentación sobre Desarrollo Guiado por Comportamiento (BDD), que detalla cómo se ha aplicado esta metodología en el proyecto.</p>
