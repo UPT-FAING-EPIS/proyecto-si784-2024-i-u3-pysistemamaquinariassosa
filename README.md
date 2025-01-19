@@ -2,7 +2,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15342167)
 
 <!-- Título -->
-<h1 align="center">Proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil"</h1>
+<h1 align="center">Proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil "</h1>
 
 <!-- Descripción del proyecto -->
 <p align="center">El proyecto "Sistema de Alquiler de Equipos para Minería y Construcción Civil" para la empresa SOSA e Hijas S.A.C. tiene como objetivo desarrollar una plataforma web que simplifique el proceso de reserva y gestión de equipos pesados. Esta solución mejorará la experiencia del usuario y aumentará la eficiencia operativa de la empresa al ofrecer una interfaz intuitiva para seleccionar, reservar y gestionar equipos. En el contexto actual de digitalización y competitividad en la industria, esta iniciativa se presenta como una herramienta estratégica para optimizar procesos y satisfacer las necesidades del mercado.</p>
